@@ -495,6 +495,12 @@ set(files
   __fwd/variant.h
   __fwd/vector.h
   __hash_table
+  __hive/hive.h
+  __hive/hive_block.h
+  __hive/hive_block_capacity.h
+  __hive/hive_iterator.h
+  __hive/hive_limits.h
+  __hive/hive_storage.h
   __ios/fpos.h
   __iterator/access.h
   __iterator/advance.h
@@ -1083,6 +1089,7 @@ set(files
   fstream
   functional
   future
+  hive
   initializer_list
   iomanip
   ios
