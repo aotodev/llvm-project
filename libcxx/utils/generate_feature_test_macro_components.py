@@ -759,6 +759,12 @@ feature_test_macros = [
             "unimplemented": True,
         },
         {
+            "name": "__cpp_lib_hive",
+            "values": {"c++26": 202502},  # P0447R28 std::hive
+            "headers": ["hive"],
+            "unimplemented": True,
+        },
+        {
             "name": "__cpp_lib_hypot",
             "values": {"c++17": 201603},
             "headers": ["cmath"],
